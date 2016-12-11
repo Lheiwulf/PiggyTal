@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/MyAccount"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Account" />
+        <item
+            android:id="@+id/Payment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Payment" />
+        <item
+            android:id="@+id/Piggytal"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Piggytal" />
+        <item
+            android:id="@+id/About"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="About" />
+        <item
+            android:id="@+id/Logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Logout" />
+    </group>
+
+</menu>
